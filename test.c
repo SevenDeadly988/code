@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1	//Ê¹scanfº¯ÊıÌæ»»scanf_sµÄ¾¯¸æÊ§Ğ§  scanf_s²»ÊÇCÓïÑÔµÄÍ¨ÓÃº¯Êı
+#define _CRT_SECURE_NO_WARNINGS 1	//ä½¿scanfå‡½æ•°æ›¿æ¢scanf_sçš„è­¦å‘Šå¤±æ•ˆ  scanf_sä¸æ˜¯Cè¯­è¨€çš„é€šç”¨å‡½æ•°
 
 #include <stdio.h>
 
@@ -18,41 +18,3 @@ int main()
 	printf("%d\n",c);
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-//
-//int main()	   //±äÁ¿num1 + ±äÁ¿num2 = ±äÁ¿num0
-//{
-//  	int num1 = 0; //±äÁ¿num1
-//	int num2 = 0; //±äÁ¿num2
-//	long long num0 = 0;	 //±äÁ¿num3
-//	scanf("%d%d",&num1,&num2);//ÊäÈëÊı¾İ-Ê¹ÓÃÊäÈëº¯Êıscanf   &È¡µØÖ··ûºÅ
-//	num1 + num2;
-//	num0= num1 + num2;
-////	printf("num0 = %d\n", num0);  //´òÓ¡num0 = ÕûÊınum0
-////
-////	return 0;
-////}
-//  int main()
-//  {
-//	  int a = (int)3.14;
-//	  printf("%d\n",a);
-////
-////	return 0;
-////
-////  }
-//int main()
-//{
-//	int a = 3 == 4;
-//	printf("%d\n",a);
-//	return 0;
-//}
-
